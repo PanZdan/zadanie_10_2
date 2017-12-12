@@ -12,7 +12,7 @@ $("span:even").css('color', 'red');
 //dodawanie nowych elementów (przycisków) za pomocą jQ 
 var paragraphs = $('p');
 paragraphs.each(function(index, element) {
-	var button = '<button class="btn" data-tmp="' + index + '">Click me</button>'
+	var button = '<button class="btn" data-tmp="' + index + '">Click me</button>';
 	$(element).append(button);
 });
 
